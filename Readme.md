@@ -33,8 +33,7 @@ This step will install the required package in the current machine.
 the `setup.sh` script will take care of this process.
 
 ```bash
-# export PODMAN_MACHINE_NAME="podman-machine-default"
-# change this machine name if you want to setup another machine.
+export PODMAN_MACHINE_NAME="podman-machine-default" # change this machine name if you want to setup another machine.
 ./setup.sh
 ```
 
